@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
 
 function App() {
   return (
@@ -6,17 +7,8 @@ function App() {
 
       <Navbar />
 
-      <main className="pt-24">
-
-        <section
-          id="home"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <h1 className="text-5xl font-bold">
-            My Portfolio
-          </h1>
-        </section>
-
+      <main>
+        <Hero />
       </main>
 
     </div>
