@@ -6,7 +6,7 @@ function Hero() {
     >
       
       {/* Background glow */}
-      <div className="absolute left-1/2 top-1/2 -z-10 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
+      <div className="hero-glow absolute left-1/2 top-1/2 -z-10 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
 
       <div className="mx-auto max-w-4xl text-center">
 
@@ -16,9 +16,9 @@ function Hero() {
         </p>
 
         {/* Name */}
-        <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-          Jatin Gupta
-        </h1>
+        <h1 className="bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-5xl font-bold tracking-tight text-transparent sm:text-6xl md:text-7xl">
+  Jatin Gupta
+</h1>
 
         {/* Role */}
         <h2 className="mt-5 text-2xl font-semibold text-gray-300 sm:text-3xl">
@@ -37,14 +37,14 @@ function Hero() {
 
           <a
             href="#projects"
-            className="rounded-full bg-cyan-400 px-7 py-3 font-semibold text-black transition duration-300 hover:scale-105 hover:bg-cyan-300"
+            className="rounded-full bg-cyan-400 px-7 py-3 font-semibold text-black shadow-lg shadow-cyan-400/20 transition duration-300 hover:-translate-y-1 hover:bg-cyan-300 hover:shadow-cyan-400/40"
           >
             View My Work
           </a>
 
           <a
             href="#contact"
-            className="rounded-full border border-white/20 px-7 py-3 font-semibold text-white transition duration-300 hover:border-cyan-400 hover:text-cyan-400"
+            className="rounded-full border border-white/20 px-7 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
           >
             Contact Me
           </a>
