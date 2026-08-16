@@ -28,7 +28,7 @@ function Contact() {
 
 
   return (
-    <section id="contact" className="px-6 py-24">
+    <section id="contact" className=" scroll-mt-24 px-6 py-24">
 
       <div className="mx-auto max-w-4xl text-center">
 

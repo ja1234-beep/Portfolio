@@ -46,7 +46,7 @@ function SkillCard({ title, skills }) {
 
 function Skills() {
   return (
-    <section id="skills" className="px-6 py-24">
+    <section id="skills" className=" scroll-mt-24 px-6 py-24">
 
       <div className="mx-auto max-w-6xl">
 

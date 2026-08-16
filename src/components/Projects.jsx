@@ -95,7 +95,7 @@ function ProjectCard({ title, description, technologies, github, demo }) {
 
 function Projects() {
   return (
-    <section id="projects" className="px-6 py-24">
+    <section id="projects" className="scroll-mt-24 px-6 py-24">
 
       <div className="mx-auto max-w-6xl">
 

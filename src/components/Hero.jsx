@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-20"
+      className="scroll-mt-24 relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-20"
     >
       
       {/* Background glow */}
